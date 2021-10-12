@@ -10,6 +10,6 @@ export class UsersService {
   constructor(private http: HttpClient) { }
 
   getUsers() : Observable<any> {
-    return this.http.get("http://127.0.0.1:8005/api/users");
+    return this.http.get("http://127.0.0.1:8000/api/users");
   }  
 }

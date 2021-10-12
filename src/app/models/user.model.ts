@@ -4,12 +4,12 @@ export interface UserModel {
   email: string;
   birthday: string;
   age: number;
-  userAdress: UserAdressModel;
+  user_addresses: UserAdressModel;
 }
 
-interface UserAdressModel {
+export interface UserAdressModel {
   adress: string;
-  exteriorNumber: number;
+  exterior_number: number;
   suburb: string;
   zipcode: number;
   city: string;
